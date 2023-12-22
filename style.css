@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+/* utliity classes*/
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    color: rgb(10, 10, 10);
+    border: 1px solid rgb(14, 13, 13);
+    background: #fff;
+}
+.btn-secondary{
+    color: #fff;
+    background: black;
+    margin-top: 2rem;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover{
+    background: #537a99;
+}
+    
+
+/* header start */
+header {
+    height: 100vh;
+    background: url(https://media.istockphoto.com/id/1085179472/photo/fresh-italian-pizza-with-chicken-fillet-mushrooms-ham-salami-tomatoes-broccoli-cheese-on-on.jpg?s=612x612&w=0&k=20&c=ZbvVGm-ZaxEX4PzCVeoMauS_OCLgrw819OkjKHdiKZo=) center center/cover no-repeat;
+    
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a {
+    padding: 15px 20px;
+    color: #faf6f6;
+    font-weight: 600;
+}
+#navbar ul li a:hover {
+    border-bottom: 2px solid #8ca6cc;
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+header .content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header .content p {
+    margin: 10px ;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* header end */
+
+/* about start*/
+#about {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9aa6c9;
+}
+#about .title ,
+#Menu .title
+{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+ #about h2 
+  {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+ }
+
+ #about .about-content p{
+    color: #0a0a0a;
+    margin-right: 5rem;
+    font-weight: 600;
+    line-height: 1.6; 
+ }
+
+/* about end*/
+
+/* menu start */
+#menu {
+    background: #fff;
+    padding: 10rem 0;
+}
+
+#Menu .Menu-items .Menu-item img 
+{
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+#Menu .Menu-items *#Menu .Menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Menu .Menu-items .Menu-item *#Menu .Menu-items .Menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+#Menu .Menu-items .Menu-item span {
+    color: #537a99;
+    margin-top: 30px;
+    
+}
+#Menu h2{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Menu h3{
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    
+}
+/* menu end */
+
+
+
+/* contact start*/
+#Contact {
+padding: 5rem 0;
+background: #fff;
+
+
+}
+#Contact .container{
+    max-width: 900px;
+}
+#Contact .Contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Contact .Contact-content .Contact-INFO{
+
+    width: 50%;
+}
+#Contact .Contact-content .Contact-INFO div{
+    margin: 30px 0; 
+    line-height: 1.7;
+
+}
+#Contact .Contact-content .Contact-INFO i{
+    margin-right: 5px;
+}
+form{
+    width: 100%;
+}
+form input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    
+}
+#Contact .btn{
+    background: #8ca6cc;
+    color: #fff;
+}
+#Contact .btn:hover{
+    background-color:black;
+}
+/* end contact */
+/* LOGIN STAET */
+#Login {
+    padding: 5rem 0;
+    background: #faf6f6;
+}
+#Login .container{
+    max-width: 900px;
+}
+#Login-content div{
+    margin: 30px 0; 
+    line-height: 1.7;
+}
+form{
+    width: 50%;
+}
+form label,
+input {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    
+}
+#Login .btn{
+    background:#8ca6cc;
+    color: #fff;
+}
+#Login .btn:hover{
+    background-color:black;
+}
+#footer {
+    background:#9aa6c9;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+
+}
